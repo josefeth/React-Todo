@@ -1,0 +1,20 @@
+.MainArea {
+   text-align: center;    
+    margin: 0 auto;
+    
+}
+
+
+.Todo{
+    font-size: 2rem;
+    
+}
+
+.ClearButton{
+    font-size: 2rem;
+}
+
+.Input {
+    height: 30px;
+    margin: 2%;
+}
