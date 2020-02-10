@@ -32,9 +32,9 @@ class TodoForm extends React.Component {
                     type="text"
                     name="listItem"
                     value={this.state.listItem}
-                />
-                <button type="submit">Add</button>
-                <button onClick={this.props.clearCompleted}>Clear Completed</button>
+                    className='Input'/>
+                <button className='ClearButton' type="submit">Add</button><br></br>
+                <button className='ClearButton' onClick={this.props.clearCompleted}>Start Fresh</button>
             </form>
         );
     }
